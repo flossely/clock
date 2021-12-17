@@ -4,20 +4,7 @@
 <meta charset="UTF-8">
 <title>Clocks</title>
 <link rel="shortcut icon" href="sys.clock.png?rev=<?=time();?>" type="image/x-icon">
-<style>
-@font-face
-{
-    font-family: "libsans";
-    src: url("libsans.ttf");
-}
-body, p
-{
-    background-color: #dcdad5;
-    color: #000;
-    font-family: "libsans";
-    font-size: 14pt;
-}
-</style>
+<link href="system.css?rev=<?=time();?>" rel="stylesheet">
 <script src="clock.js"></script>
 </head>
 <body onload="display_ct();">
