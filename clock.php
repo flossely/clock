@@ -5,7 +5,7 @@
 <title>Clocks</title>
 <link rel="shortcut icon" href="sys.clock.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
-<script src="clock.js"></script>
+<script src="clock.js?rev=<?=time();?>"></script>
 </head>
 <body onload="display_ct();">
 <p align=center><span class='large' id='ct'></span></p>
