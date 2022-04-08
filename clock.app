@@ -1,1 +1,1 @@
-Clocks=||=sys.clock.png=||=window.location.href='clock.php';
+Clocks|[1]|sys.clock.png|[1]|window.location.href='clock.php';
