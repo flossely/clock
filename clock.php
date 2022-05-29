@@ -6,10 +6,11 @@
 <link rel="shortcut icon" href="sys.clock.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
 <?php include 'base.incl.php'; ?>
+<script src="time.js?rev=<?=time();?>"></script>
 <script src="clock.js?rev=<?=time();?>"></script>
 </head>
-<body onload="display_ct();">
-<p align=center><span class='large' id='ct'></span></p>
+<body onload="tick();">
+<p align=center><span class='large' id='time'></span></p>
 <p align=center><canvas id="canvas" width="380%" height="380%" style="background-color:#333"></canvas></p>
 <script src="clock.js"></script>
 </body>
