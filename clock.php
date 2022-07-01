@@ -6,8 +6,7 @@
 <link rel="shortcut icon" href="sys.clock.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
 <?php include 'base.incl.php'; ?>
-<script src="time.js?rev=<?=time();?>"></script>
-<script src="clock.js?rev=<?=time();?>"></script>
+<?php include 'time.incl.php'; ?>
 </head>
 <body onload="tick();">
 <p align=center><span class='large' id='time'></span></p>
